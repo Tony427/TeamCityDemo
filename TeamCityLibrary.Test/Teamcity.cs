@@ -4,7 +4,7 @@ namespace TeamCityLibrary.Test
 {
     public static class TeamCity
     {
-        static string Test(string input)
+        static string Echo(string input)
         {
             return string.IsNullOrEmpty(input) ? "no inupt" : $"Echo : {input}";
         }
